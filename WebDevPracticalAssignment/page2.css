@@ -1,0 +1,174 @@
+/* section2 class styling of page 2 */
+.section2 .container h1{
+    margin-left: 50px;
+}
+/* entire body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5; padding: 0;
+    margin: 0;
+    background-color: white;}
+    /* logo area */
+.logo{
+    width: 45px;
+}
+/* header section */
+header{
+    background-color: #354244;
+    color: white;
+    padding: top 20px;
+    min-height: 70px;
+    border-bottom: 2px coral solid;
+}
+/* header link. unorder list
+and list items */
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;}
+header ul{ padding:0;
+    margin: 0;
+   }
+header li{ 
+    display: inline;
+    float: left;
+    padding: 0px 20px;
+    border-bottom:90;
+    font-size: 20px;
+  }
+  /* header h2 with id "brand" */
+header #brand{
+    float:middle;
+    display: inline;
+}
+/* header nav */
+header nav{
+    float: right;
+    padding-bottom:30px;
+    font-weight: bold;
+}
+/* adding hover to nav link  */
+ul a:hover{
+    color: blue;
+    font-weight: bold;
+}
+header .highlight{
+    font-weight: bold;
+    color: blue;
+ }
+ /* styling section 2 h1*/
+ .section2 .container h1{
+    float: left;
+    font-size: 30px;
+    margin-top: 12px;
+    font-family: Verdana, 
+    Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+}
+/* affecting all container class */
+.container{
+    width: 80%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;}
+.section2{
+    padding: 15px;
+    color: white;
+    background: #354244;}
+    /* Section 2 frorm, input
+    and button */
+.section2 form{
+    float: right;
+margin-top: 15px;}
+/* styling input */
+.section2 input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button1{
+    height: 39px;
+    padding: 0px 20;
+    background: blue;
+    border: none;
+    color: white;
+}
+/* adding hover to  button*/
+button:hover{
+    color: red;
+}
+/* 1 color for all span */
+span{
+    color: rgb(184, 13, 13);
+}
+/* adding flex to main section */
+main{
+    display: flex;
+    justify-content: space-around;
+ margin-top: 20px;
+ margin-bottom: 60px;
+}
+/* giving me div border, 
+psddling and weight */
+main div{
+    border: 1px black solid;
+    width: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+/* h1 with id h11 to center */
+#h11{
+    text-align: center;
+    font-size: 60px;
+}
+/* styling footer */
+footer {
+    background-color: rgb(67, 67, 214);
+    margin-top: 10px;
+    
+    }
+/* styling footer paragraph */
+footer p{
+text-transform: capitalize;
+text-align: center;
+font-family:'Franklin Gothic Medium',
+'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+color: aliceblue;
+word-spacing: 10px;
+}
+/* add flex to second section */
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    margin-top: -39px;
+}
+/* sec 2 div */
+.sec2 div{
+    border: 1px black solid;
+    width: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px
+
+}
+/* styling id h11 */
+#h11{
+    background-color: black;
+margin-top: -8px;
+color: white;
+}
+/* styling id h111 */
+#h111{
+   
+margin-top: 5px;
+margin-bottom: -19px;
+text-align: center;
+color: black;
+font-size: 60px;
+}

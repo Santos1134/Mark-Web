@@ -1,0 +1,293 @@
+/* span in showcase section1 */
+.container1 span{
+    color: blue;
+}
+/* h1 in second section */
+.section2 .container h1{
+    margin-left: 50px;
+}
+/* affecting entire body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5; padding: 0;
+    margin: 0;
+    background-color: white;}
+
+.box1 img{
+    width: 80px;
+}
+.box img{
+    width: 100px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/* adding style to header */
+header{
+    background-color: #354244;
+    color: white;
+    padding: top 20px;
+    min-height: 70px;
+    border-bottom: 2px coral solid;
+} 
+/* styling anchor tags in header */
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* unorder list and list items */
+header ul{ padding:0;
+    margin: 0;   
+}
+/* reducing header logo size */
+.logo{
+    width: 45px;
+}
+header li{ 
+    display: inline;
+    float: left;
+    padding: 0px 20px;
+    border-bottom:90;
+    font-size: 20px;
+  
+}
+/* targrting id #brand in header */
+header #brand{
+    float:middle;
+    display: inline;
+}
+/* header nav bar */
+header nav{
+    float: right;
+    padding-bottom:30px;
+    font-weight: bold;
+}
+/* adding hover to nav link  */
+ul a:hover{
+    color: blue;
+    font-weight: bold;
+}
+header .highlight{
+    font-weight: bold;
+    color: blue;
+ }
+/* entire showcase section 1 */
+.section1{
+    min-height: 400px;
+    background-image: url(Images/Best-Nature-Full-HD-Images.jpg);
+    text-align: center;
+    color: white;
+    margin-top: -100px; 
+}
+/* h1 only in sec1 */
+.section1 h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;}
+/* p only in sec1 */
+ .section1 p{
+        font-size: 20px;
+    }
+    /* entire sec2 styling */
+.section2{
+    padding: 15px;
+    color: white;
+    background: #354244;
+}
+/* h1 only in sec2 */
+.section2 h1{
+    float: left;
+    font-size: 30px;
+    margin-top: 12px;
+    font-family: Verdana, 
+    Geneva, Tahoma, sans-serif;
+    }
+        /*sec2 form  */
+.section2 form{
+    float: right;
+margin-top: 15px;}
+/* styling sec2 input */
+.section2 input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+/* styling button1 */
+.button1{
+    height: 39px;
+    padding: 0px 20;
+    background: blue;
+    border: none;
+    color: white;
+}
+/* adding hover to all buttons*/
+button:hover{
+    color: red;
+}
+input[type="button"]:hover{
+    color: red;
+}
+/* h2 in sec 2 with #h2 as id */
+#h2 span{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    
+}
+#h2{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT',
+     Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+font-weight: 10px;
+min-height: 200px;
+margin-top: -10px;
+background-color: rgb(33, 118, 18);
+color: white;
+}
+/* Entire main section */
+main{
+    display: flex;
+    justify-content: space-around;
+
+    background-color:rgb(33, 118, 18);
+min-height: 350px;
+margin-top: -60px;}
+/* targeting main div */
+main div{
+    border: 3px black solid;
+    background-color: white;
+   
+   }
+   .box{
+    width: 30%;
+    height: 220px;
+    padding: 0px 10px;
+    border-radius: 40px;
+   }
+   /* styling each box and sub elements */
+   .box h1{
+    color: blue;
+text-align: center;
+text-transform: capitalize;}
+    .box p{text-align: center;
+    text-transform: capitalize;}
+
+.box input{
+    border: none;
+    
+    padding: 10px 20px;
+    background-color: blue;
+    border-radius: 20px;
+    text-decoration: underline;
+    font-family: 'Times New Roman',
+     Times, serif;
+     font-weight: bold;
+     margin-left: 38%;
+     color: white;
+    
+}
+.box p{
+    /* color:; */
+font-family: serif;
+font-size: 15px;
+font-weight: bold;}
+.box p a{color: black; font-weight: bold;
+    font-size: 20px;
+    text-decoration: 1px underline blue;
+}
+/* adding hover to box links */
+.box p a:hover{
+    color: red;}
+   /* h1 in sec4 and its span */
+#g-sec{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+    #g-sec span{ color: blue;}
+/* sec4 images */
+.gallery  img{
+    width: 90%;
+    border: 4px blue solid;
+    border-radius: 10px;}
+    /* section 4 div */
+.section4 div{ 
+    padding: 0;}
+    .section4{
+    display:flex;
+    background-color: rgb(225, 221, 221);
+    justify-content: space-around;
+    gap: 16px;
+    margin-top: -10px;
+    }
+ 
+/* section 5 div */
+.section5 div{ 
+        padding: 0;}
+        /* entire section 5 class */
+        .section5{
+        display:flex;
+        background-color: rgb(225, 221, 221);
+        justify-content: space-around;
+        gap: 16px;
+        }
+        /* section5 images */
+        .section5 img{
+            border: 4px blue solid;
+        border-radius: 10px;
+            width: 90%;}
+
+       /* affecting section5 div */
+        .section6 div{ 
+            padding: 0;}
+            /* entire section6 class */
+            .section6{
+            display:flex;
+            background-color: rgb(225, 221, 221);
+            justify-content: space-around;
+            gap: 16px;
+            margin-bottom: 40px;
+            }
+            /* section 6 images */
+            .section6 img{
+                border: 4px blue solid;
+            border-radius: 10px;
+            width: 90%;}
+                /* styling of entire footer */
+              footer {
+                background-color: rgb(67, 67, 214);
+                margin-top: -50px;
+                
+                }
+        /* styling footer paragraph */
+    footer p{
+        text-transform: capitalize;
+        text-align: center;
+        font-family:'Franklin Gothic Medium',
+         'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    color: aliceblue;
+word-spacing: 10px;
+margin-bottom: 10px;}
+
+
+    
+
+
+
+
+
+
+
+   
+
+
+
+    
